@@ -30,7 +30,7 @@ function imgClick1(e1) {
     setTimeout(() => current1.classList.remove('fade-in'), 500);
 
     //change the opacity to opacity variable on every click
-    e.target.style.opacity = opacity;
+    e1.target.style.opacity = opacity;
 }
 
 function imgClick2(e2) {
@@ -47,7 +47,7 @@ function imgClick2(e2) {
     setTimeout(() => current2.classList.remove('fade-in'), 500);
 
     //change the opacity to opacity variable on every click
-    e.target.style.opacity = opacity;
+    e2.target.style.opacity = opacity;
 }
 
 function imgClick3(e3) {
@@ -64,7 +64,7 @@ function imgClick3(e3) {
     setTimeout(() => current3.classList.remove('fade-in'), 500);
 
     //change the opacity to opacity variable on every click
-    e.target.style.opacity = opacity;
+    e3.target.style.opacity = opacity;
 }
 
 function imgClick4(e4) {
@@ -81,7 +81,7 @@ function imgClick4(e4) {
     setTimeout(() => current4.classList.remove('fade-in'), 500);
 
     //change the opacity to opacity variable on every click
-    e.target.style.opacity = opacity;
+    e4.target.style.opacity = opacity;
 }
 
 // event listeners
