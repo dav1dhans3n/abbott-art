@@ -176,13 +176,7 @@ section {
     max-width: 95%;
     padding: 10px
 }
-/*
-.main-img1, 
-.main-img2 {
-    max-width: 1000px;
-    grid-column: 2 / -1;
-}
-*/
+
 .main-img1 img,
 .main-img2 img,
 .main-img3 img,
@@ -191,10 +185,17 @@ section {
 .imgs2 img,
 .imgs3 img,
 .imgs4 img {
- display: flex;
- width: 100%; 
- height: auto;
- min-height: 100%;
+  width: 100%; 
+  height: auto;
+  min-height: 100%;
+}
+
+.imgs1 img {
+    display: block;
+    max-width:230px; 
+    max-height:95px; 
+    width: auto; 
+    height: auto;
 }
 
 .imgs1,
