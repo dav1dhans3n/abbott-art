@@ -204,6 +204,9 @@ section {
   grid-column: 1 / -1;
   grid-template-columns: repeat(auto-fill, 100px);
   grid-gap: 5px;
+  width: 100%; 
+  height: auto;
+  min-height: 100%;
   object-fit: cover;
   overflow: hidden;
 }
