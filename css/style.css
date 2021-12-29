@@ -41,7 +41,7 @@ body {
     background: linear-gradient(153deg,rgba(55, 149, 243, 0.591) 0%, rgba(63, 240, 60, 0.121) 100%);
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
-    margin: 20px;
+    margin: 10px;
     padding: 0px;
     text-align: center;
 }
@@ -68,7 +68,11 @@ img {
 /*-- Header and Navigation --  */
 
 .navbar {
-    background-color: #035503
+    background-color: #035503;
+}
+
+.navbar-nav {
+    
 }
 
 /*-- Body Styles --*/
