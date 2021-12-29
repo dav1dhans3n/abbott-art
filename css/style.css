@@ -186,16 +186,8 @@ section {
 .imgs3 img,
 .imgs4 img {
   width: 100%; 
-  height: auto;
+  /* height: auto; */
   min-height: 100%;
-}
-
-.imgs1 img {
-    display: block;
-    max-width:230px; 
-    max-height:95px; 
-    width: auto; 
-    height: auto;
 }
 
 .imgs1,
