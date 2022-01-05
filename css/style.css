@@ -212,7 +212,7 @@ section {
 }
 
 .img-test {
-    object-fit: cover;
+    object-fit: scale-down;
 }
 
 /* Fade in animation */
