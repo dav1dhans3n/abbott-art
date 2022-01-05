@@ -65,6 +65,15 @@ img {
     width: 100%;
     height: auto;
 }
+
+img {
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+  
+    /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+    image-rendering: -webkit-optimize-contrast;
+  }
+
 /*-- Header and Navigation --  */
 
 .navbar {
@@ -186,7 +195,7 @@ section {
 .imgs3 img,
 .imgs4 img {
   width: 100%; 
-  /* height: auto; */
+  height: auto;
   min-height: 100%;
 }
 
@@ -200,6 +209,10 @@ section {
   grid-gap: 5px;
   object-fit: cover;
   overflow: hidden;
+}
+
+.img-test {
+    object-fit: cover;
 }
 
 /* Fade in animation */
